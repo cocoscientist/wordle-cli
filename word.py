@@ -3,7 +3,8 @@ import time
 
 class Word:
     def __init__(self):
-        self.word = 'apple'
+        #TODO: Select word randomly from a list
+        self.word = 'APPLE'
         self.charset = set(self.word)
 
     def getWord(self):
@@ -11,7 +12,7 @@ class Word:
 
     def compareWord(self,entered):
         matched = True
-        entered = entered.lower()
+        entered = entered.upper()
         for i in range(5):
             if entered[i]==self.word[i]:
                 printChar(0,entered[i])
