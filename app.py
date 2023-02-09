@@ -21,7 +21,7 @@ def mainloop():
             print("Try Again")
     
     if not WIN:
-        print("You Lose! ", "Word is ", baseWord.getWord())
+        print("You Lose!", "Word is", baseWord.getWord())
 
 
 if __name__ == "__main__":
