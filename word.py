@@ -1,10 +1,10 @@
-from helpers import printChar
+from helpers import printChar, randomWord
 import time
 
 class Word:
     def __init__(self):
         #TODO: Select word randomly from a list
-        self.word = 'APPLE'
+        self.word = randomWord()
         self.charset = set(self.word)
 
     def getWord(self):
